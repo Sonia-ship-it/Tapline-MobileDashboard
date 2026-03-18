@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "TapLine",
+    "slug": "tapline",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/TP_circular.png",
+    "scheme": "tapline",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "backgroundColor": "#000000"
+    },
+    "android": {
+      "backgroundColor": "#000000",
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "foregroundImage": "./assets/images/TP_circular.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/TP_circular.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/TP_circular.png",
+          "imageWidth": 480,
+          "resizeMode": "cover",
+          "backgroundColor": "#000000",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "splash": {
+      "image": "./assets/images/TP_circular.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    }
+  }
+}

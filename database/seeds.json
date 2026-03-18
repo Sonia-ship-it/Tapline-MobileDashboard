@@ -1,0 +1,34 @@
+{
+    "users": [
+        {
+            "username": "agent01",
+            "password": "hashed_admin111_pass",
+            "role": "agent",
+            "name": "Headquarters Agent",
+            "terminalId": "AGENT_TERM_01"
+        },
+        {
+            "username": "sales01",
+            "password": "hashed_pos222_pass",
+            "role": "sales",
+            "name": "Main Store Sales",
+            "terminalId": "SALES_TERM_01"
+        }
+    ],
+    "sample_card": {
+        "uid": "1234abcd",
+        "holderName": "Alpha Tester",
+        "balance": 500.00,
+        "passcode": "hashed_000000_pass",
+        "passcodeSet": true
+    },
+    "sample_transaction": {
+        "uid": "1234abcd",
+        "type": "topup",
+        "amount": 250.00,
+        "balanceBefore": 250.00,
+        "balanceAfter": 500.00,
+        "terminalId": "AGENT_TERM_01",
+        "timestamp": "2026-03-18T05:00:00Z"
+    }
+}
